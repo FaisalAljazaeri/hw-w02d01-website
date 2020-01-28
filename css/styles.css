@@ -51,7 +51,7 @@ main {
     margin-left: 4%;
 }
 
-img {
+.main-img {
     border: 1px solid black;
     padding: 10px;
     height: 50%;
@@ -87,9 +87,24 @@ img {
 
 li {
     list-style-type: square;
+    margin-bottom: 10%;
+}
+
+.edu-list li{
+    list-style-type: square;
+    margin: 2% auto;
+    font-size: 20px;
 }
 
 #web-dev {
     font-style: italic;
     font-weight: 900;
+}
+
+.project-img {
+    border: 1px solid black;
+    padding: 10px;
+    height: 60%;
+    width: 60%;
+    margin: 0 5%;
 }
